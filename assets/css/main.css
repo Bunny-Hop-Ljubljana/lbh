@@ -134,8 +134,12 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #252122;
+		color: rgba(101, 148, 88, 1.0);
 		font-weight: 700;
+	}
+
+	p {
+		color: rgba(101, 148, 88, 1.0);
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1548,7 +1552,6 @@ input, select, textarea {
 		header.major {
 			position: relative;
 			text-align: center;
-			border-top: solid 1px #ccc;
 			top: 1em;
 			margin: 0 0 3em 0;
 		}
@@ -1570,7 +1573,6 @@ input, select, textarea {
 
 	.box {
 		background: #ffffff;
-		border-bottom: solid 1px #ccc;
 		padding: 2.75em 1.75em 2.75em 1.75em;
 	}
 
@@ -2075,7 +2077,7 @@ input, select, textarea {
 	}
 
 		#header h1 {
-			color: #252122;
+			color: rgba(83, 131, 70, 1.0);
 			font-weight: 900;
 			font-size: 3.5em;
 			letter-spacing: -0.035em;
@@ -2181,7 +2183,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: rgba(101, 148, 88, 1.0) url("../../images/pic01.png");
+		background: rgba(101, 148, 88, 1.0);
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
@@ -2304,12 +2306,21 @@ input, select, textarea {
 			font-size: 32px;
 		}
 
+		#main .box p {
+			color: rgba(101, 148, 88, 1.0);
+			font-weight: 500;
+		}
+
+		#intro-wrapper .major h2 {
+			background: rgba(176, 197, 107, 1.0);
+		}
+
 		#main .major h2 {
-			background: #f7f7f7 url("images/bg02.png");
+			background: #fff;
 		}
 
 		#main-2 .major h2 {
-			background: rgba(248, 229, 126, 1.0) url("images/bg02.png");			
+			background: rgba(248, 229, 126, 1.0);			
 		}
 
 /* Footer */
@@ -2333,7 +2344,7 @@ input, select, textarea {
 		}
 
 		#footer a {
-			color: #c5c4c4;
+			color: rgba(83, 131, 70, 1.0);
 		}
 
 		#footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
@@ -2657,7 +2668,7 @@ input, select, textarea {
 				width: 275px;
 				z-index: 10002;
 				color: #858484;
-				background-image: url("images/bg02.png");
+				background: rgb(83, 131, 70);
 				box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.35);
 			}
 
@@ -2875,7 +2886,7 @@ input, select, textarea {
 			}
 
 				#header h1 {
-					color: #252122;
+					color: rgba(83, 131, 70, 1.0);
 					font-weight: 900;
 					font-size: 1.75em;
 					letter-spacing: -0.035em;
